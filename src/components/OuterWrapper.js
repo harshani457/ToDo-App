@@ -9,11 +9,11 @@ const OuterWraper = () => {
         <div className={style.outer}>
             <Title/>
             <InputBox/>
-            <WorkRecord/>
-            <WorkRecord/>
-            <WorkRecord/>
-            <WorkRecord/>
-            <WorkRecord/>
+            <WorkRecord title="Sample Title one"/>
+            <WorkRecord title="Sample Title two"/>
+            <WorkRecord title="Sample Title three"/>
+            <WorkRecord title="Sample Title four"/>
+            <WorkRecord title="Sample Title five"/>
             
         </div>
     );
