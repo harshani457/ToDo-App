@@ -4,12 +4,14 @@ import style from './InputBox.module.css';
 const InputBox = () => {
 
     const clickHandler = () => {
-        console.log('clicked');
+        console.log(typeWord);
      }
+
+     let typeWord;
   
      const typeHandler = (event) => {
         console.log(event.target.value);
-        //x = event.target.value;
+        typeWord = event.target.value;
      }  
 
 
